@@ -11,8 +11,8 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 #import 
-dataset= pd.read_csv('Mall_Customers.csv')
-X=dataset.iloc[:,[3,4]].values 
+dataset= pd.read_csv('F:/New folder/Mall_Customers.csv')
+X=dataset.iloc[:,[3,4]].values
 
 #Using Elbow method to find the number of clusters i.e K 
 from sklearn.cluster import KMeans
